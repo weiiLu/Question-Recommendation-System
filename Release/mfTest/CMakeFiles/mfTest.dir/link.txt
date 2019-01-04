@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/mfTest.dir/mfTest.cpp.o  -o ../bin/mfTest  -L/home/lw/桌面/phpmf/Release/bin -rdynamic -lmf -Wl,-rpath,/home/lw/桌面/phpmf/Release/bin 

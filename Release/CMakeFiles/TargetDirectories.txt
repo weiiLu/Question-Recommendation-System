@@ -1,0 +1,3 @@
+/home/lw/桌面/phpmf/Release/mf/CMakeFiles/mf.dir
+/home/lw/桌面/phpmf/Release/mfTest/CMakeFiles/mfTest.dir
+/home/lw/桌面/phpmf/Release/php_mf/CMakeFiles/php_mf.dir

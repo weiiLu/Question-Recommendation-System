@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -Wall -O3 -pthread -std=c++0x -march=native -mavx -fopenmp -O3 -DNDEBUG   -shared -Wl,-soname,libmf.so -o ../bin/libmf.so CMakeFiles/mf.dir/mf.cpp.o 

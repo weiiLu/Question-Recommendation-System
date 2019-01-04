@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,libphp_mf.so -o ../bin/libphp_mf.so CMakeFiles/php_mf.dir/mfWarp.cpp.o CMakeFiles/php_mf.dir/php_mf.c.o  -L/home/lw/桌面/phpmf/Release/bin -lmf -Wl,-rpath,/home/lw/桌面/phpmf/Release/bin 

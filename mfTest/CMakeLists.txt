@@ -1,0 +1,8 @@
+add_executable(mfTest mfTest.cpp)
+#message(STATUS "${CMAKE_BINARY_DIR}")
+set(mf_DIR "${CMAKE_BINARY_DIR}/bin")
+if(WIN32)
+  target_link_libraries(mfTest "${mf_DIR}/$<$<CONFIG:Release>:Release>$<$<CONFIG:Debug>:Debug>/mf.lib")
+else()
+  target_link_libraries(mfTest "${mf_DIR}/libmf.so")
+endif()

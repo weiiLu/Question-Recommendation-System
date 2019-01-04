@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lw/桌面/phpmf/mf/mf.h
+utility
+-
+
+/home/lw/桌面/phpmf/php_mf/mfWarp.cpp
+mfWarp.h
+/home/lw/桌面/phpmf/php_mf/mfWarp.h
+
+/home/lw/桌面/phpmf/php_mf/mfWarp.h
+iostream
+-
+string
+-
+../mf/mf.h
+/home/lw/桌面/phpmf/mf/mf.h
+
